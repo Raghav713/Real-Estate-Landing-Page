@@ -1,0 +1,856 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+   display: block;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 100; 
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: black;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.button{
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+    background-color:rgb(58, 105, 248); 
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.button:hover{
+    background: #3492fd;
+}
+.navbar a:hover{
+    background: #3492fd;
+    border-radius: 30px;
+}
+/*.......HOME.......*/
+.home{
+    margin-top: 10rem;
+    font-size: 2rem;
+    padding: 10px 10px;
+}
+.home-text{
+    font-size: larger;
+}
+.home-image{
+    margin-left: 500px;
+    margin-top: -220px;
+}
+.hfnav{
+    display: flex;
+    justify-content: center;
+}
+.hfnav button{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.loc{
+    padding: 5px 80px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border: 0px;
+    border-right:1px solid #bbb;
+}
+.loc2{
+    padding: 5px 80px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border: 0px;
+    border-right:1px solid #bbb;
+}
+.loc3{
+    padding: 5px 80px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border: 0px;
+}
+.loc1{
+    color: white;
+    background-color:rgb(58, 105, 248); 
+    margin-top: 25px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.loc:hover{
+    background: #3492fd;
+    border-radius: 20px;
+}
+.loc1:hover{
+    background: #3492fd;
+}
+.loc2:hover:hover{
+    background: #3492fd;
+    border-radius: 20px;
+}
+.loc3:hover{
+    background: #3492fd;
+    border-radius: 20px;
+}
+/*.......PAGE-2.......*/
+.sechead{
+    text-align: center;
+    margin-top: 70px;
+    padding: 50px;
+}
+.fun{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(310px,auto));
+    gap: 3.5rem;
+    padding: 12px;
+}
+.fun .box{
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+.box:hover{
+    background-color: rgb(58, 105, 248); 
+}
+.pos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.more{
+    background-color:white;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: rgb(58, 105, 248); 
+}
+.more:hover{
+    background-color: rgb(58, 105, 248); 
+    color: white;
+}
+/*.......PAGE-3.......*/
+.thirdhead{
+    text-align: center;
+    margin-top: 70px;
+    padding: 50px;
+}
+.fun-cont2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    gap: 3.5rem;
+    padding: 12px;
+}
+.fun-cont2 .box-2{
+    height: 500px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 25px;
+}
+.pos-2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.img-size{
+    width: 420px;
+    height: 300px;
+    margin-top: -80px;
+    border-radius: 30px;
+}
+.latest li{
+    display:inline-flex;
+    padding: 20px;
+}
+.third-foot{
+    text-align: center;
+    margin-left: 700px;
+    color: blue;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.third-foot:hover{
+    background-color:rgb(58, 105, 248); 
+}
+/*.......PAGE-4.......*/
+.fun-cont3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 1.5rem;
+    padding: 12px;
+}
+.fun-cont3 .box-3{
+    height: 400px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 30px;
+}
+.pos-3{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.prop{
+    float: right;
+    width: 420px;
+    height: 400px;
+    margin-top: -80px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+.fun-cont4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(310px,auto));
+    gap: 3.5rem;
+    padding: 12px;
+}
+.fun-cont4 .box-4{
+    height: 480px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 35px;
+}
+.pos-4{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.rmore{
+    height: 50px;
+    margin-top: -10px;
+    padding: 1px 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+}
+.rmore:hover{
+    background-color: #3492fd;
+}
+.blog{
+   margin-top: -80px;
+   height: 230px;
+    width: 400px;
+    border-radius: 30px;
+}
+.fun-cont5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(310px,auto));
+    gap: 3.5rem;
+    padding: 12px;
+}
+.fun-cont5 .box-5{
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+.box-5:hover{
+    background-color: #3492fd;
+}
+.pos-5{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.dots{
+    text-align: center;
+}
+.fun-cont6{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+    gap: 3.5rem;
+    padding: 12px;
+}
+.fun-cont6 .box-6{
+    height: 400px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.pos-6{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.qlinks li:hover{
+    color: white;
+    background-color: #3492fd;
+}
+.serv li:hover{
+    color: white;
+    background-color: #3492fd;
+}
+
+@media (max-width:1027px){
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .nav{
+        display:flex;
+        padding: 10px ;
+    }
+    .navbar a{
+        padding: 10px 20px;
+    }
+    .home{
+        font-size: 1.2rem;
+    }
+    .home-image{
+        margin-left: 250px;
+        margin-top: -180px;
+        width: 200px;
+    }
+    .loc{
+        padding: 5px 35px;
+    }
+    .loc2{
+        padding: 5px 35px;
+    }
+    .loc3{
+        padding: 5px 35px;
+    }
+    .loc1{
+        padding: 10px 10px;
+        margin-top: 25px;
+    }
+    .fun{
+        grid-template-columns: repeat(auto-fit,minmax(400px,auto));
+        gap: 1.4rem;
+        justify-content: center;
+    }
+    .fun .box{
+        width: 600px;
+    }
+    .fun-cont2{
+        grid-template-columns: repeat(auto-fit,minmax(500px,auto));
+        gap: 1rem;
+        text-align: center;
+        margin-top: -70px;
+    }
+    .fun-cont2 .box-2{
+        width: 500px;
+        padding: 80px;
+    }
+    .img-size{
+        width: 500px;
+        height: 350px;
+    }
+    .third-foot{
+        margin-left: 325px;
+    }
+    .fun-cont3{
+        grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+        gap: 3rem;
+        justify-content: center;
+    }
+    .fun-cont3 .box-3{
+        width: 600px;
+        height: 400px;
+        gap: 3rem;
+    }
+    .feat{
+        margin-left: 10px;
+    }
+    .prop{
+        float: right;
+        width: 350px;
+    }
+    .fun-cont4{
+        grid-template-columns: repeat(auto-fit,minmax(500px,auto));
+        text-align: center;
+        justify-content: center;
+
+    }
+    .fun-cont4 .box-4{
+        height: 500px;
+        gap: 1rem;
+    }
+    .blog{
+        height: 280px;
+        width: 500px;
+    }
+    .fun-cont5{
+        grid-template-columns: repeat(auto-fit,minmax(400px,auto));
+        gap: 1rem;
+        justify-content: center;
+    }
+    .fun-cont5 .box-5{
+        width: 400px;
+        height: 300px;
+    }
+    .pos-5{
+        margin-top: 20px;
+    }
+    .fun-cont6{
+        grid-template-columns: repeat(auto-fit,minmax(500px,auto));
+        justify-content: center;
+    }
+    .fun-cont6 .box-6{
+        padding: 100px;
+        height: 200px;
+        margin: -10px;
+    }
+    .pos-6{
+        margin-top: -100px ;
+    }
+    .qlinks li{
+        margin-top: 10px;
+    }
+    .serv li{
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width:1400px){
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .nav{
+        display:flex;
+        padding: 10px ;
+
+    }
+    .navbar a{
+        padding: 10px 20px;
+    }
+    .home{
+        font-size: 1.2rem;
+    }
+    .home-image{
+        margin-left: 330px;
+        margin-top: -180px;
+        width: 500px;
+    }
+    .loc{
+        padding: 5px 35px;
+    }
+    .loc2{
+        padding: 5px 35px;
+    }
+    .loc3{
+        padding: 5px 35px;
+    }
+    .loc1{
+        padding: 10px 10px;
+        margin-top: 25px;
+    }
+    .fun{
+        grid-template-columns: repeat(auto-fit,minmax(600px,auto));
+        gap: 1.4rem;
+        justify-content: center;
+    }
+    .fun .box{
+        width: 600px;
+        border: solid 1px black;
+    }
+    .fun-cont2{
+        grid-template-columns: repeat(auto-fit,minmax(600px,auto));
+        gap: 1rem;
+        text-align: center;
+        margin-top: -70px;
+        justify-content: center;
+    }
+    .fun-cont2 .box-2{
+        width: 600px;
+        padding: 80px;
+    }
+    .img-size{
+        width: 500px;
+        height: 350px;
+    }
+    .third-foot{
+        margin-left: 325px;
+    }
+    .fun-cont3{
+        grid-template-columns: repeat(auto-fit,minmax(600px,auto));
+        gap: 3rem;
+        justify-content: center;
+    }
+    .fun-cont3 .box-3{
+        width: 600px;
+        height: 400px;
+        gap: 3rem;
+    }
+    .feat{
+        margin-left: 10px;
+    }
+    .prop{
+        float: right;
+        width: 350px;
+    }
+    .fun-cont4{
+        grid-template-columns: repeat(auto-fit,minmax(500px,auto));
+        text-align: center;
+        justify-content: center;
+    }
+    .fun-cont4 .box-4{
+        height: 500px;
+        gap: 1rem;
+    }
+    .blog{
+        height: 280px;
+        width: 500px;
+    }
+    .fun-cont5{
+        grid-template-columns: repeat(auto-fit,minmax(600px,auto));
+        gap: 1rem;
+        justify-content: center;
+    }
+    .fun-cont5 .box-5{
+        width: 600px;
+        height: 300px;
+    }
+    .pos-5{
+        margin-top: 20px;
+    }
+    .fun-cont6{
+        grid-template-columns: repeat(auto-fit,minmax(500px,auto));
+        justify-content: center;
+    }
+    .fun-cont6 .box-6{
+        padding: 100px;
+        height: 200px;
+        margin: -10px;
+    }
+    .pos-6{
+        margin-top: -100px;
+    }
+    .qlinks li{
+        margin-top: 10px;
+    }
+    .serv li{
+        margin-top: 10px;
+    }
+}
+@media (max-width:800px){
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .nav{
+        display:flex;
+        padding: 10px;
+    }
+    .navbar a{
+        padding: 10px 20px;
+    }
+    .home{
+        font-size: 1.2rem;
+    }
+    .home-image{
+        margin-left: 250px;
+        margin-top: -180px;
+        width: 450px;
+    }
+}
+
+
+
+
+
+@media (max-width:500px){
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .nav{
+        display:flex;
+        padding: 2px;
+    }
+    .navbar a{
+        padding: 2px 2px;
+        margin-left: 10px;
+    }
+    .signin{
+        padding: 2px 2px;
+    }
+    .home{
+        font-size: 0.8rem;
+    }
+    .home-image{
+        margin-left: 180px;
+        margin-top: -180px;
+        width: 200px;
+    }
+    .loc{
+        padding: 2px 2px;
+    }
+    .loc2{
+        padding: 2px 2px;
+    }
+    .loc3{
+        padding: 2px 2px;
+    }
+    .loc1{
+        padding: 2px 2px;
+        margin-top: 35px;
+    }
+    .fun{
+        grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+        gap: 1.4rem;
+        justify-content: center;
+    }
+    .fun .box{
+        width: 350px;
+        border: solid 1px black;
+    }
+    .fun-cont2{
+        grid-template-columns: repeat(auto-fit,minmax(400px,auto));
+        gap: 1rem;
+        text-align: center;
+        margin-top: -70px;
+    }
+    .fun-cont2 .box-2{
+        width: 350px;
+        padding: 80px;
+    }
+    .img-size{
+        width: 350px;
+        height: 300px;
+        margin-left: -40px;
+        margin-top: -140px;
+    }
+    .third-foot{
+        margin-left: 205px;
+    }
+    .fun-cont3{
+        grid-template-columns: repeat(auto-fit,minmax(420px,auto));
+        gap: 3rem;
+        justify-content: center;
+    }
+    .fun-cont3 .box-3{
+        width: 420px;
+        height: 400px;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .feat{
+        margin-left: -15px;
+    }
+    .prop{
+        float: right;
+        width: 200px;
+    }
+    .fun-cont4{
+        grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+        text-align: center;
+        justify-content: center;
+    }
+    .fun-cont4 .box-4{
+        height: 400px;
+        gap: 1rem;
+    }
+    .blog{
+        height: 280px;
+        width: 350px;
+    }
+    .fun-cont5{
+        grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+        gap: 1rem;
+        justify-content: center;
+    }
+    .fun-cont5 .box-5{
+        width: 350px;
+        height: 300px;
+    }
+    .pos-5{
+        margin-top: 20px;
+    }
+    .fun-cont6{
+        grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+        justify-content: center;
+    }
+    .fun-cont6 .box-6{
+        padding: 100px;
+        height: 200px;
+        margin: -10px;
+    }
+    .pos-6{
+        margin-top: -100px ;
+    }
+    .qlinks li{
+        margin-top: 10px;
+    }
+    .serv li{
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width:650px){
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .nav{
+        display:flex;
+        padding: 2px ;
+    }
+    .navbar a{
+        padding: 2px 2px;
+        margin-left: 10px;
+    }
+    .signin{
+        padding: 2px 2px;
+    }
+    .home{
+        font-size: 1rem;
+    }
+    .home-image{
+        margin-left: 220px;
+        margin-top: -180px;
+        width: 300px;
+    }
+    .loc{
+        padding: 4px 4px;
+    }
+    .loc2{
+        padding: 4px 4px;
+    }
+    .loc3{
+        padding: 4px 4px;
+    }
+    .loc1{
+        padding: 4px 4px;
+        margin-top: 35px;
+    }
+    .fun{
+        grid-template-columns: repeat(auto-fit,minmax(450px,auto));
+        gap: 1.4rem;
+        justify-content: center;
+    }
+    .fun .box{
+        width: 450px;
+        border: solid 1px black;
+    }
+    .fun-cont2{
+        grid-template-columns: repeat(auto-fit,minmax(450px,auto));
+        gap: 1rem;
+        text-align: center;
+        margin-top: -70px;
+    }
+    .fun-cont2 .box-2{
+        width: 450px;
+        padding: 80px;
+    }
+    .img-size{
+        width: 450px;
+        height: 300px;
+        margin-left: -70px;
+        margin-top: -140px;
+    }
+    .third-foot{
+        margin-left: 205px;
+    }
+    .fun-cont3{
+        grid-template-columns: repeat(auto-fit,minmax(450px,auto));
+        gap: 3rem;
+        justify-content: center;
+    }
+    .fun-cont3 .box-3{
+        width: 450px;
+        height: 400px;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .feat{
+        margin-left: -15px;
+    }
+    .prop{
+        float: right;
+        width: 200px;
+    }
+    .fun-cont4{
+        grid-template-columns: repeat(auto-fit,minmax(450px,auto));
+        text-align: center;
+        justify-content: center;
+    }
+    .fun-cont4 .box-4{
+        height: 450px;
+        gap: 1rem;
+    }
+    .blog{
+        height: 280px;
+        width: 450px;
+    }
+    .fun-cont5{
+        grid-template-columns: repeat(auto-fit,minmax(450px,auto));
+        gap: 1rem;
+        justify-content: center;
+    }
+    .fun-cont5 .box-5{
+        width: 450px;
+        height: 300px;
+    }
+    .pos-5{
+        margin-top: 20px;
+    }
+    .fun-cont6{
+        grid-template-columns: repeat(auto-fit,minmax(450px,auto));
+        justify-content: center;
+    }
+    .fun-cont6 .box-6{
+        padding: 100px;
+        height: 200px;
+        margin: -10px;
+    }
+    .pos-6{
+        margin-top: -100px ;
+    }
+    .qlinks li{
+        margin-top: 10px;
+    }
+    .serv li{
+        margin-top: 10px;
+    }
+}
+
+
+
